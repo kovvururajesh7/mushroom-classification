@@ -1,0 +1,48 @@
+{
+  "target_column": "class",
+  "feature_columns": [
+    "cap-shape",
+    "cap-surface",
+    "cap-color",
+    "bruises",
+    "odor",
+    "gill-attachment",
+    "gill-spacing",
+    "gill-size",
+    "gill-color",
+    "stalk-shape",
+    "stalk-root",
+    "stalk-surface-above-ring",
+    "stalk-surface-below-ring",
+    "stalk-color-above-ring",
+    "stalk-color-below-ring",
+    "veil-color",
+    "ring-number",
+    "ring-type",
+    "spore-print-color",
+    "population",
+    "habitat"
+  ],
+  "classes": {
+    "e": "Edible",
+    "p": "Poisonous"
+  },
+  "label_mapping": {
+    "e": 0,
+    "p": 1
+  },
+  "positive_class": "Poisonous (p)",
+  "removed_constant_columns": [
+    "veil-type"
+  ],
+  "best_model_by_f1_mcc_accuracy": "Decision Tree",
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "K-Nearest Neighbors": "k_nearest_neighbors.joblib",
+    "Gaussian Naive Bayes": "gaussian_naive_bayes.joblib",
+    "Support Vector Machine": "support_vector_machine.joblib"
+  },
+  "random_state": 42,
+  "test_size": 0.2
+}
