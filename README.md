@@ -28,16 +28,16 @@ All categorical input features were transformed using One-Hot Encoding. The data
 The preprocessing steps were incorporated into the machine learning pipelines to prevent data leakage. The held-out test dataset was exported as `test_data.csv` for evaluation through the Streamlit application.
 
 ## c. GitHub Repository Link
-
+[View Mushroom Classification GitHub Repository](https://github.com/kovvururajesh7/mushroom-classification)
 
 
 **Files in the repository:**
 
-- `Mushroom_Classification_Assignment_2.ipynb` – Notebook containing dataset preprocessing, model training and evaluation.
+- `Mushroom_Classification.ipynb` – Notebook containing dataset preprocessing, model training and evaluation.
 - `app.py` – Streamlit application that loads the saved models and evaluates uploaded test data without retraining.
 - `requirements.txt` – Required Python dependencies.
-- `test_data.csv` – Held-out test dataset containing input features and the target column.
-- `mushrooms.csv` – Original mushroom dataset.
+- `test.csv` – Held-out test dataset containing input features and the target column.
+- `train.csv` – Original mushroom dataset.
 - `model_comparison_metrics.csv` – Evaluation metrics for all five classifiers.
 - `model/` – Contains all five saved Joblib model pipelines and `feature_schema.json`.
 
