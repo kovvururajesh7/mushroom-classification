@@ -88,3 +88,5 @@ The uploaded CSV must contain all 21 required input features and the target colu
 The application loads the previously trained Joblib model pipelines and their preprocessing artifacts from the `model/` directory. The bundled `test_data.csv` can also be used for evaluation.
 
 **Live Streamlit application:** 
+
+[View Mushroom Classification Streamlit App](https://mushroom-classification-gn5kb7yrpjvqoypqxafbcm.streamlit.app/)
