@@ -85,7 +85,7 @@ The Streamlit application provides an interactive interface for evaluating the f
 
 The uploaded CSV must contain all 21 required input features and the target column `class`, with target values `e` and `p`. The application validates the uploaded dataset and displays the evaluation results without retraining the models.
 
-The application loads the previously trained Joblib model pipelines and their preprocessing artifacts from the `model/` directory. The bundled `test_data.csv` can also be used for evaluation.
+The application loads the previously trained Joblib model pipelines and their preprocessing artifacts from the `model/` directory. The bundled `test.csv` can also be used for evaluation.
 
 **Live Streamlit application:** 
 
